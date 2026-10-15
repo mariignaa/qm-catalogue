@@ -1,0 +1,52 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://mariignaa.github.io/qm-catalogue/iiif/dia_azzawi3/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Human States"
+    ]
+  },
+  "items": [
+    {
+      "id": "https://mariignaa.github.io/qm-catalogue/iiif/dia_azzawi3/canvas",
+      "type": "Canvas",
+      "height": 1958,
+      "width": 1961,
+      "items": [
+        {
+          "id": "https://mariignaa.github.io/qm-catalogue/iiif/dia_azzawi3/canvas/annotation-page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://mariignaa.github.io/qm-catalogue/iiif/dia_azzawi3/canvas/Dia_Azzawi3",
+              "motivation": "painting",
+              "target": "https://mariignaa.github.io/qm-catalogue/iiif/dia_azzawi3/canvas",
+              "type": "Annotation",
+              "body": {
+                "id": "https://mariignaa.github.io/qm-catalogue/iiif/dia_azzawi3/Dia_Azzawi3/print-image.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1958,
+                "width": 1961,
+                "label": {
+                  "en": [
+                    "Human States"
+                  ]
+                },
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://mariignaa.github.io/qm-catalogue/iiif/dia_azzawi3/Dia_Azzawi3/tiles/info.json",
+                    "profile": "level0",
+                    "protocol": "http://iiif.io/api/image"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

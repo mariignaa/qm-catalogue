@@ -1,0 +1,52 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://mariignaa.github.io/qm-catalogue/iiif/dia_azzawi2/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Ishtar"
+    ]
+  },
+  "items": [
+    {
+      "id": "https://mariignaa.github.io/qm-catalogue/iiif/dia_azzawi2/canvas",
+      "type": "Canvas",
+      "height": 3000,
+      "width": 2588,
+      "items": [
+        {
+          "id": "https://mariignaa.github.io/qm-catalogue/iiif/dia_azzawi2/canvas/annotation-page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://mariignaa.github.io/qm-catalogue/iiif/dia_azzawi2/canvas/Dia_Azzawi2",
+              "motivation": "painting",
+              "target": "https://mariignaa.github.io/qm-catalogue/iiif/dia_azzawi2/canvas",
+              "type": "Annotation",
+              "body": {
+                "id": "https://mariignaa.github.io/qm-catalogue/iiif/dia_azzawi2/Dia_Azzawi2/print-image.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3000,
+                "width": 2588,
+                "label": {
+                  "en": [
+                    "Ishtar"
+                  ]
+                },
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://mariignaa.github.io/qm-catalogue/iiif/dia_azzawi2/Dia_Azzawi2/tiles/info.json",
+                    "profile": "level0",
+                    "protocol": "http://iiif.io/api/image"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

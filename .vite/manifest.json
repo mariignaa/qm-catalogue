@@ -1,0 +1,204 @@
+{
+  "_assets/fonts/ibm-plex-sans-condensed/ibmplexsanscondensed-bold.eot": {
+    "file": "_assets/fonts/ibm-plex-sans-condensed/ibmplexsanscondensed-bold.eot",
+    "src": "_assets/fonts/ibm-plex-sans-condensed/ibmplexsanscondensed-bold.eot"
+  },
+  "_assets/fonts/ibm-plex-sans-condensed/ibmplexsanscondensed-bold.woff": {
+    "file": "_assets/fonts/ibm-plex-sans-condensed/ibmplexsanscondensed-bold.woff",
+    "src": "_assets/fonts/ibm-plex-sans-condensed/ibmplexsanscondensed-bold.woff"
+  },
+  "_assets/fonts/ibm-plex-sans-condensed/ibmplexsanscondensed-bold.woff2": {
+    "file": "_assets/fonts/ibm-plex-sans-condensed/ibmplexsanscondensed-bold.woff2",
+    "src": "_assets/fonts/ibm-plex-sans-condensed/ibmplexsanscondensed-bold.woff2"
+  },
+  "_assets/fonts/ibm-plex-sans-condensed/ibmplexsanscondensed-bolditalic.eot": {
+    "file": "_assets/fonts/ibm-plex-sans-condensed/ibmplexsanscondensed-bolditalic.eot",
+    "src": "_assets/fonts/ibm-plex-sans-condensed/ibmplexsanscondensed-bolditalic.eot"
+  },
+  "_assets/fonts/ibm-plex-sans-condensed/ibmplexsanscondensed-bolditalic.woff": {
+    "file": "_assets/fonts/ibm-plex-sans-condensed/ibmplexsanscondensed-bolditalic.woff",
+    "src": "_assets/fonts/ibm-plex-sans-condensed/ibmplexsanscondensed-bolditalic.woff"
+  },
+  "_assets/fonts/ibm-plex-sans-condensed/ibmplexsanscondensed-bolditalic.woff2": {
+    "file": "_assets/fonts/ibm-plex-sans-condensed/ibmplexsanscondensed-bolditalic.woff2",
+    "src": "_assets/fonts/ibm-plex-sans-condensed/ibmplexsanscondensed-bolditalic.woff2"
+  },
+  "_assets/fonts/ibm-plex-sans-condensed/ibmplexsanscondensed-italic.eot": {
+    "file": "_assets/fonts/ibm-plex-sans-condensed/ibmplexsanscondensed-italic.eot",
+    "src": "_assets/fonts/ibm-plex-sans-condensed/ibmplexsanscondensed-italic.eot"
+  },
+  "_assets/fonts/ibm-plex-sans-condensed/ibmplexsanscondensed-italic.woff": {
+    "file": "_assets/fonts/ibm-plex-sans-condensed/ibmplexsanscondensed-italic.woff",
+    "src": "_assets/fonts/ibm-plex-sans-condensed/ibmplexsanscondensed-italic.woff"
+  },
+  "_assets/fonts/ibm-plex-sans-condensed/ibmplexsanscondensed-italic.woff2": {
+    "file": "_assets/fonts/ibm-plex-sans-condensed/ibmplexsanscondensed-italic.woff2",
+    "src": "_assets/fonts/ibm-plex-sans-condensed/ibmplexsanscondensed-italic.woff2"
+  },
+  "_assets/fonts/ibm-plex-sans-condensed/ibmplexsanscondensed-regular.eot": {
+    "file": "_assets/fonts/ibm-plex-sans-condensed/ibmplexsanscondensed-regular.eot",
+    "src": "_assets/fonts/ibm-plex-sans-condensed/ibmplexsanscondensed-regular.eot"
+  },
+  "_assets/fonts/ibm-plex-sans-condensed/ibmplexsanscondensed-regular.woff": {
+    "file": "_assets/fonts/ibm-plex-sans-condensed/ibmplexsanscondensed-regular.woff",
+    "src": "_assets/fonts/ibm-plex-sans-condensed/ibmplexsanscondensed-regular.woff"
+  },
+  "_assets/fonts/ibm-plex-sans-condensed/ibmplexsanscondensed-regular.woff2": {
+    "file": "_assets/fonts/ibm-plex-sans-condensed/ibmplexsanscondensed-regular.woff2",
+    "src": "_assets/fonts/ibm-plex-sans-condensed/ibmplexsanscondensed-regular.woff2"
+  },
+  "_assets/fonts/noto-sans/notosans-bold.eot": {
+    "file": "_assets/fonts/noto-sans/notosans-bold.eot",
+    "src": "_assets/fonts/noto-sans/notosans-bold.eot"
+  },
+  "_assets/fonts/noto-sans/notosans-bold.woff": {
+    "file": "_assets/fonts/noto-sans/notosans-bold.woff",
+    "src": "_assets/fonts/noto-sans/notosans-bold.woff"
+  },
+  "_assets/fonts/noto-sans/notosans-bold.woff2": {
+    "file": "_assets/fonts/noto-sans/notosans-bold.woff2",
+    "src": "_assets/fonts/noto-sans/notosans-bold.woff2"
+  },
+  "_assets/fonts/noto-sans/notosans-bolditalic.eot": {
+    "file": "_assets/fonts/noto-sans/notosans-bolditalic.eot",
+    "src": "_assets/fonts/noto-sans/notosans-bolditalic.eot"
+  },
+  "_assets/fonts/noto-sans/notosans-bolditalic.woff": {
+    "file": "_assets/fonts/noto-sans/notosans-bolditalic.woff",
+    "src": "_assets/fonts/noto-sans/notosans-bolditalic.woff"
+  },
+  "_assets/fonts/noto-sans/notosans-bolditalic.woff2": {
+    "file": "_assets/fonts/noto-sans/notosans-bolditalic.woff2",
+    "src": "_assets/fonts/noto-sans/notosans-bolditalic.woff2"
+  },
+  "_assets/fonts/noto-sans/notosans-italic.eot": {
+    "file": "_assets/fonts/noto-sans/notosans-italic.eot",
+    "src": "_assets/fonts/noto-sans/notosans-italic.eot"
+  },
+  "_assets/fonts/noto-sans/notosans-italic.woff": {
+    "file": "_assets/fonts/noto-sans/notosans-italic.woff",
+    "src": "_assets/fonts/noto-sans/notosans-italic.woff"
+  },
+  "_assets/fonts/noto-sans/notosans-italic.woff2": {
+    "file": "_assets/fonts/noto-sans/notosans-italic.woff2",
+    "src": "_assets/fonts/noto-sans/notosans-italic.woff2"
+  },
+  "_assets/fonts/noto-sans/notosans-regular.eot": {
+    "file": "_assets/fonts/noto-sans/notosans-regular.eot",
+    "src": "_assets/fonts/noto-sans/notosans-regular.eot"
+  },
+  "_assets/fonts/noto-sans/notosans-regular.woff": {
+    "file": "_assets/fonts/noto-sans/notosans-regular.woff",
+    "src": "_assets/fonts/noto-sans/notosans-regular.woff"
+  },
+  "_assets/fonts/noto-sans/notosans-regular.woff2": {
+    "file": "_assets/fonts/noto-sans/notosans-regular.woff2",
+    "src": "_assets/fonts/noto-sans/notosans-regular.woff2"
+  },
+  "_assets/fonts/noto-serif/notoserif-bold.eot": {
+    "file": "_assets/fonts/noto-serif/notoserif-bold.eot",
+    "src": "_assets/fonts/noto-serif/notoserif-bold.eot"
+  },
+  "_assets/fonts/noto-serif/notoserif-bold.woff": {
+    "file": "_assets/fonts/noto-serif/notoserif-bold.woff",
+    "src": "_assets/fonts/noto-serif/notoserif-bold.woff"
+  },
+  "_assets/fonts/noto-serif/notoserif-bold.woff2": {
+    "file": "_assets/fonts/noto-serif/notoserif-bold.woff2",
+    "src": "_assets/fonts/noto-serif/notoserif-bold.woff2"
+  },
+  "_assets/fonts/noto-serif/notoserif-bolditalic.eot": {
+    "file": "_assets/fonts/noto-serif/notoserif-bolditalic.eot",
+    "src": "_assets/fonts/noto-serif/notoserif-bolditalic.eot"
+  },
+  "_assets/fonts/noto-serif/notoserif-bolditalic.woff": {
+    "file": "_assets/fonts/noto-serif/notoserif-bolditalic.woff",
+    "src": "_assets/fonts/noto-serif/notoserif-bolditalic.woff"
+  },
+  "_assets/fonts/noto-serif/notoserif-bolditalic.woff2": {
+    "file": "_assets/fonts/noto-serif/notoserif-bolditalic.woff2",
+    "src": "_assets/fonts/noto-serif/notoserif-bolditalic.woff2"
+  },
+  "_assets/fonts/noto-serif/notoserif-italic.eot": {
+    "file": "_assets/fonts/noto-serif/notoserif-italic.eot",
+    "src": "_assets/fonts/noto-serif/notoserif-italic.eot"
+  },
+  "_assets/fonts/noto-serif/notoserif-italic.woff": {
+    "file": "_assets/fonts/noto-serif/notoserif-italic.woff",
+    "src": "_assets/fonts/noto-serif/notoserif-italic.woff"
+  },
+  "_assets/fonts/noto-serif/notoserif-italic.woff2": {
+    "file": "_assets/fonts/noto-serif/notoserif-italic.woff2",
+    "src": "_assets/fonts/noto-serif/notoserif-italic.woff2"
+  },
+  "_assets/fonts/noto-serif/notoserif-regular.eot": {
+    "file": "_assets/fonts/noto-serif/notoserif-regular.eot",
+    "src": "_assets/fonts/noto-serif/notoserif-regular.eot"
+  },
+  "_assets/fonts/noto-serif/notoserif-regular.woff": {
+    "file": "_assets/fonts/noto-serif/notoserif-regular.woff",
+    "src": "_assets/fonts/noto-serif/notoserif-regular.woff"
+  },
+  "_assets/fonts/noto-serif/notoserif-regular.woff2": {
+    "file": "_assets/fonts/noto-serif/notoserif-regular.woff2",
+    "src": "_assets/fonts/noto-serif/notoserif-regular.woff2"
+  },
+  "_assets/fonts/raleway/Raleway-Thin.ttf": {
+    "file": "_assets/fonts/raleway/Raleway-Thin.ttf",
+    "src": "_assets/fonts/raleway/Raleway-Thin.ttf"
+  },
+  "_assets/images/static-cover.jpg": {
+    "file": "_assets/images/static-cover.jpg",
+    "src": "_assets/images/static-cover.jpg"
+  },
+  "_index-iRJ6ymrE.js": {
+    "file": "_assets/index-iRJ6ymrE.js",
+    "name": "index",
+    "css": [
+      "_assets/index.css"
+    ],
+    "assets": [
+      "_assets/fonts/ibm-plex-sans-condensed/ibmplexsanscondensed-regular.eot",
+      "_assets/fonts/ibm-plex-sans-condensed/ibmplexsanscondensed-regular.woff2",
+      "_assets/fonts/ibm-plex-sans-condensed/ibmplexsanscondensed-regular.woff",
+      "_assets/fonts/ibm-plex-sans-condensed/ibmplexsanscondensed-italic.eot",
+      "_assets/fonts/ibm-plex-sans-condensed/ibmplexsanscondensed-italic.woff2",
+      "_assets/fonts/ibm-plex-sans-condensed/ibmplexsanscondensed-italic.woff",
+      "_assets/fonts/ibm-plex-sans-condensed/ibmplexsanscondensed-bold.eot",
+      "_assets/fonts/ibm-plex-sans-condensed/ibmplexsanscondensed-bold.woff2",
+      "_assets/fonts/ibm-plex-sans-condensed/ibmplexsanscondensed-bold.woff",
+      "_assets/fonts/ibm-plex-sans-condensed/ibmplexsanscondensed-bolditalic.eot",
+      "_assets/fonts/ibm-plex-sans-condensed/ibmplexsanscondensed-bolditalic.woff2",
+      "_assets/fonts/ibm-plex-sans-condensed/ibmplexsanscondensed-bolditalic.woff",
+      "_assets/fonts/noto-serif/notoserif-regular.eot",
+      "_assets/fonts/noto-serif/notoserif-regular.woff2",
+      "_assets/fonts/noto-serif/notoserif-regular.woff",
+      "_assets/fonts/noto-serif/notoserif-italic.eot",
+      "_assets/fonts/noto-serif/notoserif-italic.woff2",
+      "_assets/fonts/noto-serif/notoserif-italic.woff",
+      "_assets/fonts/noto-serif/notoserif-bold.eot",
+      "_assets/fonts/noto-serif/notoserif-bold.woff2",
+      "_assets/fonts/noto-serif/notoserif-bold.woff",
+      "_assets/fonts/noto-serif/notoserif-bolditalic.eot",
+      "_assets/fonts/noto-serif/notoserif-bolditalic.woff2",
+      "_assets/fonts/noto-serif/notoserif-bolditalic.woff",
+      "_assets/fonts/noto-sans/notosans-regular.eot",
+      "_assets/fonts/noto-sans/notosans-regular.woff2",
+      "_assets/fonts/noto-sans/notosans-regular.woff",
+      "_assets/fonts/noto-sans/notosans-italic.eot",
+      "_assets/fonts/noto-sans/notosans-italic.woff2",
+      "_assets/fonts/noto-sans/notosans-italic.woff",
+      "_assets/fonts/noto-sans/notosans-bold.eot",
+      "_assets/fonts/noto-sans/notosans-bold.woff2",
+      "_assets/fonts/noto-sans/notosans-bold.woff",
+      "_assets/fonts/noto-sans/notosans-bolditalic.eot",
+      "_assets/fonts/noto-sans/notosans-bolditalic.woff2",
+      "_assets/fonts/noto-sans/notosans-bolditalic.woff",
+      "_assets/fonts/raleway/Raleway-Thin.ttf"
+    ]
+  },
+  "_index.css": {
+    "file": "_assets/index.css",
+    "src": "_index.css"
+  }
+}

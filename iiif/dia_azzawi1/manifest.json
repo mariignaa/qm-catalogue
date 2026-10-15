@@ -1,0 +1,52 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://mariignaa.github.io/qm-catalogue/iiif/dia_azzawi1/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Western Bird"
+    ]
+  },
+  "items": [
+    {
+      "id": "https://mariignaa.github.io/qm-catalogue/iiif/dia_azzawi1/canvas",
+      "type": "Canvas",
+      "height": 1820,
+      "width": 3480,
+      "items": [
+        {
+          "id": "https://mariignaa.github.io/qm-catalogue/iiif/dia_azzawi1/canvas/annotation-page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://mariignaa.github.io/qm-catalogue/iiif/dia_azzawi1/canvas/Dia_Azzawi1",
+              "motivation": "painting",
+              "target": "https://mariignaa.github.io/qm-catalogue/iiif/dia_azzawi1/canvas",
+              "type": "Annotation",
+              "body": {
+                "id": "https://mariignaa.github.io/qm-catalogue/iiif/dia_azzawi1/Dia_Azzawi1/print-image.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1820,
+                "width": 3480,
+                "label": {
+                  "en": [
+                    "Western Bird"
+                  ]
+                },
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://mariignaa.github.io/qm-catalogue/iiif/dia_azzawi1/Dia_Azzawi1/tiles/info.json",
+                    "profile": "level0",
+                    "protocol": "http://iiif.io/api/image"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://mariignaa.github.io/qm-catalogue/iiif/baghdadiat/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      null
+    ]
+  },
+  "items": [
+    {
+      "id": "https://mariignaa.github.io/qm-catalogue/iiif/baghdadiat/canvas",
+      "type": "Canvas",
+      "height": 1188,
+      "width": 1999,
+      "items": [
+        {
+          "id": "https://mariignaa.github.io/qm-catalogue/iiif/baghdadiat/canvas/annotation-page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://mariignaa.github.io/qm-catalogue/iiif/baghdadiat/canvas/baghdadiat",
+              "motivation": "painting",
+              "target": "https://mariignaa.github.io/qm-catalogue/iiif/baghdadiat/canvas",
+              "type": "Annotation",
+              "body": {
+                "id": "https://mariignaa.github.io/qm-catalogue/iiif/baghdadiat/baghdadiat/print-image.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1188,
+                "width": 1999,
+                "label": {
+                  "en": [
+                    "Baghdadiat"
+                  ]
+                },
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://mariignaa.github.io/qm-catalogue/iiif/baghdadiat/baghdadiat/tiles/info.json",
+                    "profile": "level0",
+                    "protocol": "http://iiif.io/api/image"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

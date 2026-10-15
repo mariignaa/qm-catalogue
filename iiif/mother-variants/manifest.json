@@ -1,0 +1,61 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://mariignaa.github.io/qm-catalogue/iiif/mother-variants/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Figure 1.1"
+    ]
+  },
+  "items": [
+    {
+      "id": "https://mariignaa.github.io/qm-catalogue/iiif/mother-variants/canvas",
+      "type": "Canvas",
+      "height": 1012,
+      "width": 1012,
+      "items": [
+        {
+          "id": "https://mariignaa.github.io/qm-catalogue/iiif/mother-variants/canvas/annotation-page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://mariignaa.github.io/qm-catalogue/iiif/mother-variants/canvas/choices",
+              "motivation": "painting",
+              "target": "https://mariignaa.github.io/qm-catalogue/iiif/mother-variants/canvas",
+              "type": "Annotation",
+              "body": {
+                "type": "Choice",
+                "items": [
+                  {
+                    "id": "https://mariignaa.github.io/qm-catalogue/iiif/mother-variants/lange-mother-b.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg",
+                    "height": 1012,
+                    "width": 1012,
+                    "label": {
+                      "en": [
+                        "Variant #1"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "https://mariignaa.github.io/qm-catalogue/iiif/mother-variants/lange-mother-c.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg",
+                    "height": 1012,
+                    "width": 1012,
+                    "label": {
+                      "en": [
+                        "Variant #2"
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

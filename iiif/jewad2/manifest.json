@@ -1,0 +1,52 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://mariignaa.github.io/qm-catalogue/iiif/jewad2/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Title Unknown"
+    ]
+  },
+  "items": [
+    {
+      "id": "https://mariignaa.github.io/qm-catalogue/iiif/jewad2/canvas",
+      "type": "Canvas",
+      "height": 1384,
+      "width": 1252,
+      "items": [
+        {
+          "id": "https://mariignaa.github.io/qm-catalogue/iiif/jewad2/canvas/annotation-page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://mariignaa.github.io/qm-catalogue/iiif/jewad2/canvas/jewadsalim2",
+              "motivation": "painting",
+              "target": "https://mariignaa.github.io/qm-catalogue/iiif/jewad2/canvas",
+              "type": "Annotation",
+              "body": {
+                "id": "https://mariignaa.github.io/qm-catalogue/iiif/jewad2/jewadsalim2/print-image.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1384,
+                "width": 1252,
+                "label": {
+                  "en": [
+                    "Title Unknown"
+                  ]
+                },
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://mariignaa.github.io/qm-catalogue/iiif/jewad2/jewadsalim2/tiles/info.json",
+                    "profile": "level0",
+                    "protocol": "http://iiif.io/api/image"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
