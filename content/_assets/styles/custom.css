@@ -1,4 +1,5 @@
 /* Language visibility */
+
 html[data-language="en"] body [data-language="ar"] {
   display: none !important;
 }
