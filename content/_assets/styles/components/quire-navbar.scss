@@ -23,6 +23,33 @@
 
 // .quire-navbar
 // -----------------------------------------------------------------------------
+
+.quire-navbar-button {
+  &.menu-button {
+    width: auto;
+    padding: 0 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+
+    .menu-label {
+      display: inline-block;
+      color: $quire-navbar-text-color;
+      font-family: $quire-navigation-font;
+      font-size: .875rem;
+      font-weight: 500;
+      letter-spacing: .08em;
+      line-height: 1;
+    }
+
+    svg {
+      margin: 0;
+      top: 0;
+    }
+  }
+}
+
 .quire-navbar {
   font-family: $quire-navigation-font;
   font-weight: 400;
@@ -103,7 +130,7 @@
   &__center { flex: 1 1 auto; }
 
   &__right {
-    flex: 0 1 $navbar-height;
+    flex: 0 0 auto;
     text-align: right;
   }
 
@@ -155,6 +182,11 @@
   display: flex;
   flex-wrap: no-wrap;
   justify-content: center;
+  
+  a {
+    text-transform: uppercase;
+    letter-spacing: .05em;
+  }
 
   &__item {
     padding: 0 1rem;
@@ -183,22 +215,38 @@
     &.quire-previous-page {
       a {
         padding: 0 1.5em 0 0.5em;
+
+        display: flex;
+        align-items: center;
+        height: $navbar-height;
+        gap: .75em;
       }
+
       svg {
-        margin-right: 1em;
+        margin: 0;
+        position: static;
+        top: auto;
       }
     }
 
     &.quire-next-page {
-      font-style: normal;
-      a {
-        padding: 0 0.5em 0 1.5em;
+        font-style: normal;
+
+        a {
+          padding: 0 0.5em 0 1.5em;
+
+          display: flex;
+          align-items: center;
+          height: $navbar-height;
+          gap: .75em;
+        }
+
+        svg {
+          margin: 0;
+          position: static;
+          top: auto;
+        }
       }
-      svg {
-        margin-left: 0.25em;
-        margin-right: 0.5em;
-      }
-    }
     @media screen and (max-width: $quire-menu-width) {
       a {
         padding: 0;
@@ -364,3 +412,207 @@
   }
 }
 
+.quire-navbar-button.menu-button {
+  width: auto;
+  padding: 0 1rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .6rem;
+
+  .menu-label {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    color: $quire-navbar-text-color;
+    font-family: $quire-navigation-font;
+    font-size: .875rem;
+    font-weight: 500;
+    letter-spacing: .08em;
+  }
+
+  svg {
+    position: static;
+    top: auto;
+    margin: 0;
+    vertical-align: middle;
+  }
+}
+
+// Mathaf-inspired navbar typography
+// Mathaf-inspired navbar typography
+.quire-navbar {
+  font-family: "IBM Plex Sans Condensed", sans-serif;
+
+  a,
+  button,
+  .navbar-item,
+  .nav-label,
+  .menu-label {
+    font-family: "IBM Plex Sans Condensed", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .04em;
+  }
+}
+
+// =============================================================================
+// CUSTOM NAVBAR LAYOUT
+// Back-to-first-page button stays at the exact center
+// =============================================================================
+
+.quire-navbar-controls__center {
+  position: relative;
+}
+
+.quire-navbar-page-controls {
+  position: relative;
+  width: 100%;
+  height: $navbar-height;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+  // ---------------------------------------------------------
+  // BACK TO FIRST PAGE: always exact center
+  // ---------------------------------------------------------
+
+  .quire-home-page {
+    display: block !important;
+
+    position: absolute;
+    left: 50%;
+    top: 0;
+
+    transform: translateX(-50%);
+
+    padding: 0;
+    z-index: 3;
+
+    a,
+    button {
+      height: $navbar-height;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+
+  // ---------------------------------------------------------
+  // PREVIOUS PAGE: sits to the LEFT of center button
+  // ---------------------------------------------------------
+
+  .quire-previous-page {
+    display: block !important;
+
+    position: absolute;
+    right: calc(50% + 2.75rem);
+
+    padding: 0;
+    text-align: right;
+
+    a {
+      justify-content: flex-end;
+    }
+  }
+
+
+  // ---------------------------------------------------------
+  // NEXT PAGE: sits to the RIGHT of center button
+  // ---------------------------------------------------------
+
+  .quire-next-page {
+    display: block !important;
+
+    position: absolute;
+    left: calc(50% + 2.75rem);
+
+    padding: 0;
+    text-align: left;
+
+    a {
+      justify-content: flex-start;
+    }
+  }
+}
+
+// =============================================================================
+// ENGLISH / ARABIC LANGUAGE SELECTOR
+// =============================================================================
+
+.quire-navbar-controls__left {
+  display: flex;
+  align-items: center;
+  flex: 0 0 auto;
+}
+
+.quire-language-selector {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: $navbar-height;
+  padding: 0 .75rem;
+  gap: .4rem;
+
+  font-family: "IBM Plex Sans Condensed", sans-serif;
+  font-size: .875rem;
+  font-weight: 700;
+  letter-spacing: .04em;
+
+  border-left: 1px solid rgba(255, 255, 255, .25);
+}
+
+.language-button {
+  width: auto;
+  height: $navbar-height;
+  margin: 0;
+  padding: 0 .25rem;
+
+  color: $quire-navbar-text-color;
+  background: transparent;
+  border: 0;
+
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+
+  cursor: pointer;
+  opacity: .6;
+
+  transition:
+    color .2s ease,
+    opacity .2s ease;
+}
+
+.language-button:hover,
+.language-button:focus-visible {
+  color: $color-blue;
+  background-color: transparent;
+  opacity: 1;
+}
+
+.language-button.is-active {
+  color: $color-blue;
+  opacity: 1;
+}
+
+.language-divider {
+  color: $quire-navbar-text-color;
+  opacity: .45;
+}
+
+@media screen and (max-width: 768px) {
+  .quire-language-selector {
+    padding: 0 .4rem;
+    gap: .2rem;
+  }
+
+  .language-button {
+    font-size: .75rem;
+  }
+}

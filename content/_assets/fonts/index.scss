@@ -153,3 +153,16 @@ $assets-dir: "/_assets/" !default;
   font-weight: 700;
   font-style: italic;
 }
+
+
+//
+// Raleway Thin
+// Used for Mathaf-inspired display/page titles
+//
+
+@font-face {
+  font-family: "Raleway";
+  src: font("raleway/Raleway-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}

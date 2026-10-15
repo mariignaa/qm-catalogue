@@ -1,0 +1,52 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "http://localhost:8080/iiif/villagescene/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Figure 3"
+    ]
+  },
+  "items": [
+    {
+      "id": "http://localhost:8080/iiif/villagescene/canvas",
+      "type": "Canvas",
+      "height": 1164,
+      "width": 2000,
+      "items": [
+        {
+          "id": "http://localhost:8080/iiif/villagescene/canvas/annotation-page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:8080/iiif/villagescene/canvas/villagescene",
+              "motivation": "painting",
+              "target": "http://localhost:8080/iiif/villagescene/canvas",
+              "type": "Annotation",
+              "body": {
+                "id": "http://localhost:8080/iiif/villagescene/villagescene/print-image.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1164,
+                "width": 2000,
+                "label": {
+                  "en": [
+                    "Figure 3"
+                  ]
+                },
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "@id": "http://localhost:8080/iiif/villagescene/villagescene/tiles/info.json",
+                    "profile": "level0",
+                    "protocol": "http://iiif.io/api/image"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

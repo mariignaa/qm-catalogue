@@ -1,7 +1,8 @@
 ---
-title: Contents
+title: "Contents"
+title_ar: "المحتويات"
 layout: table-of-contents
-order: 6
+order: 200
 presentation: list
 search: false
 ---

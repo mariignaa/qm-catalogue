@@ -1,0 +1,52 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "http://localhost:8080/iiif/baghdadiat/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      null
+    ]
+  },
+  "items": [
+    {
+      "id": "http://localhost:8080/iiif/baghdadiat/canvas",
+      "type": "Canvas",
+      "height": 1188,
+      "width": 1999,
+      "items": [
+        {
+          "id": "http://localhost:8080/iiif/baghdadiat/canvas/annotation-page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:8080/iiif/baghdadiat/canvas/baghdadiat",
+              "motivation": "painting",
+              "target": "http://localhost:8080/iiif/baghdadiat/canvas",
+              "type": "Annotation",
+              "body": {
+                "id": "http://localhost:8080/iiif/baghdadiat/baghdadiat/print-image.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1188,
+                "width": 1999,
+                "label": {
+                  "en": [
+                    "Baghdadiat"
+                  ]
+                },
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "@id": "http://localhost:8080/iiif/baghdadiat/baghdadiat/tiles/info.json",
+                    "profile": "level0",
+                    "protocol": "http://iiif.io/api/image"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

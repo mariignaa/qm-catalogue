@@ -174,8 +174,8 @@ html {
       }
 
       .content {
-        margin-top: 45px;
-        padding: 2.5rem 2.5rem;
+        margin-top: 20px;
+        padding: 2rem 2rem;
         background-color: $content-background-color;
 
         @media screen and (max-width: $tablet) {
@@ -271,12 +271,16 @@ html {
         }
 
         p {
-          line-height: 2;
+          font-family: "Noto Sans", sans-serif;
+          font-size: 0.95rem;
+          font-weight: 400;
+          line-height: 1.55;
+          letter-spacing: -0.01em;
+
           @media print {
             line-height: 1.5;
           }
         }
-
         blockquote {
           border-left: none;
           position: relative;
@@ -997,4 +1001,104 @@ html {
       }
     }
   }
+}
+
+
+// Mathaf-inspired page titles
+.quire-page__header__title,
+.quire-page__header .title {
+  font-family: "Raleway", sans-serif !important;
+  font-weight: bold !important;
+  font-style: normal !important;
+
+  text-transform: lowercase;
+
+  font-size: 3.5rem;
+  line-height: 1.05;
+
+  letter-spacing: .14em;
+
+  transform: scaleX(.88);
+  transform-origin: center;
+}
+
+
+
+// Mathaf-inspired body typography
+.quire-page .quire-page__content .container .content p {
+  font-family: "Noto Sans", sans-serif !important;
+  font-size: 0.90rem !important;
+  font-weight: 400 !important;
+  line-height: 1.45 !important;
+  letter-spacing: -0.02em !important;
+}
+
+// Thin Mathaf-style content headings
+.quire-page__content .content h2 {
+  font-family: "Raleway", sans-serif !important;
+  font-weight: bold !important;
+  font-style: normal !important;
+
+  text-transform: lowercase;
+
+  font-size: 2.25rem;
+  line-height: 1.05;
+  letter-spacing: 0;
+
+  transform: scaleX(.88);
+  transform-origin: left center;
+}
+
+.quire-page__content .content h3 {
+  font-family: "Raleway", sans-serif !important;
+  font-weight: bold !important;
+  font-style: normal !important;
+
+  text-transform: lowercase;
+
+  font-size: 2.90rem;
+  line-height: 1.05;
+  letter-spacing: 0;
+
+  transform: scaleX(.88);
+  transform-origin: left center;
+}
+
+// =============================================================================
+// MULTILINGUAL CONTENT
+// =============================================================================
+
+[data-language][hidden] {
+  display: none !important;
+}
+
+[data-language="en"] {
+  direction: ltr;
+  text-align: left;
+}
+
+[data-language="ar"] {
+  direction: rtl;
+  text-align: right;
+  unicode-bidi: isolate;
+
+  font-family: "Noto Sans Arabic", "Noto Sans", sans-serif;
+}
+
+html[data-language="ar"] .quire-page__content .content {
+  direction: rtl;
+  text-align: right;
+}
+
+html[data-language="ar"] .quire-page__content .content ul,
+html[data-language="ar"] .quire-page__content .content ol {
+  margin-left: 0;
+  margin-right: 3em;
+}
+
+html[data-language="ar"] .quire-page__content .content blockquote {
+  margin-left: 0;
+  margin-right: 1.5em;
+  padding-left: 0;
+  padding-right: 1.5em;
 }

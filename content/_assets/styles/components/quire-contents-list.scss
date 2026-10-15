@@ -493,6 +493,11 @@
       }
 
       .card {
+        transition: background-color .25s ease;
+
+        &:hover {
+          background-color: #e8e8e8;
+        }
         min-height: 300px;
         @media print {
           min-height: initial;
@@ -500,7 +505,7 @@
         display: block;
         border-radius: 2px;
         box-shadow: none;
-        background-color: $content-background-color;
+        background-color: $color-grey-lighter;
         @if $theme == classic {
           color: background-color-text-classic($content-background-color);
         } @else {

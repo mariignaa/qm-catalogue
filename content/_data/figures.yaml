@@ -1,51 +1,138 @@
 figure_list:
 
-  - id: "lange"
-    src: figures/lange.jpg
+  - id: "baghdadiat"
+    src: figures/baghdadiat.jpg
     caption: "*Dorothea Lange, Resettlement Administration photographer, in California*, 1936."
     credit: "Library of Congress Prints and Photographs Division"
     alt: "Shot low and looking up at an old model car on a dirt row with a hill behind. A woman sits on the roof of the car holding a large camera and smiling."
+    zoom: true
 
-  - id: "evans"
-    src: figures/evans.jpg
+  - id: "titleunknown"
+    src: figures/titleunknown.jpg
     caption: "*Walker Evans, profile, hand up to face*, 1937."
     credit: "Library of Congress Prints and Photographs Division"
     alt: "A seated man looking away to the left, his hand at his cheek, his hair mussed, a slight worried expression on his face."
+    zoom: true
 
-  - id: "fig-1"
+  - id: "khalifaswife"
     label: "Figure 1"
-    src: figures/evans-legionnaire.jpg
+    src: figures/khalifaswife.jpg
     caption: "Walker Evans. *[American Legionnaire]*, 1935."
     credit: "The J. Paul Getty Museum, Los Angeles"
     alt: "A man, from the chest up, in a decorated uniform turned to look at the camera. Other men in similar attire talk amongst one another in the background."
+    zoom: true
 
-  - id: "fig-2"
+  - id: "untitled"
     label: "Figure 2"
-    src: figures/evans-sons.jpg
+    src: figures/untitled.jpg
     caption: "Walker Evans. *Sons of the American Legion, Bethlehem, Pennsylvania*, 1935."
     credit: "The J. Paul Getty Museum, Los Angeles"
     alt: "Three boys standing in matching pants, white shirts, dark ties, and hats. Two look at the camera, unamused, the other’s attention is elsewhere."
+    zoom: true
 
-  - id: "fig-3"
+
+  - id: "villagescene"
     label: "Figure 3"
-    src: figures/evans-graveyard.jpg
+    src: figures/villagescene.jpg
     caption: "Walker Evans. *Graveyard, Houses and Steel Mill, Bethlehem, Pennsylvania*, 1935; printed later."
     credit: "The J. Paul Getty Museum, Los Angeles"
     alt: "A large stone cross in the foreground, with smaller grave markers receding behind. Further back are brick row houses and behind them a row of factory towers which stretch across most of the top of the frame."
+    zoom: true
 
-  - id: "fig-4"
-    label: "Figure 4"
-    src: figures/evans-hymns.jpg
-    caption: "Walker Evans. *Alabama Tenant Farmer Family Singing Hymns / The Tengle Family, Hale County, Alabama*, 1936."
-    credit: "The J. Paul Getty Museum, Los Angeles"
-    alt: "A small group of people standing in front of a doorway and rough wooden wall of a building, looking at a book in one man's hands and singing. Other figures are cropped out along the edges."
+  - id: "diaazzawi"
+    label: "Dia Al Azzawi"
+    src: figures/Dia_Azzawi.jpg
+    caption: "Dia al-Azzawi. *Iraqi London-based visual artist."
+    credit: "Wikipedia"
+    alt: "Dia al-Azzawi was born in al-Fadhil, a neighborhood in Baghdad, in 1939, and was the third of ten children. His father was a grocer in the city center."
 
-  - id: "fig-5"
-    label: "Figure 5"
-    src: figures/evans-burroughs.jpg
-    caption: "Walker Evans. *Floyd and Lucille Burroughs, Hale County, Alabama*, 1936."
-    credit: "The J. Paul Getty Museum, Los Angeles"
-    alt: "A man sitting in a doorway and a young woman beside him in a chair, both barefoot, on the porch of a wooden house."
+  - id: "dia_azzawi2"
+    label: "Ishtar"
+    src: figures/Dia_Azzawi2.jpg
+    caption: "Dia Azzawi, Ishtar, My Love, 1965, oil on canvas, 90.4 x 78.1 cm."
+    credit: "Mathaf: Arab Museum of Modern Art, Doha"
+    alt: "Ishtar"
+    zoom: true
+
+  - id: "dia_azzawi3"
+    label: "Human States"
+    src: figures/Dia_Azzawi3.jpg
+    caption: "Dia Azzawi, Human States, 1975, oil on canvas, 94 x 94 cm."
+    credit: "Mathaf: Arab Museum of Modern Art, Doha"
+    alt: "Human States"
+    zoom: true
+
+  - id: "dia_azzawi1"
+    label: "Western Bird"
+    src: figures/Dia_Azzawi1.jpg
+    caption: "Dia Azzawi, Western Bird, 1995-1996, acrylic on canvas, 300 x 580 x 3.7 cm."
+    credit: "Mathaf: Arab Museum of Modern Art, Doha"
+    alt: "Western Bird"
+    zoom: true
+
+  - id: "lornaselim1"
+    label: "Title Unknown"
+    src: figures/lorna_selim1.jpg
+    caption: "Lorna Selim, Title Unknown, 1962, oil on board, 44 x 55.5 cm."
+    credit: "Mathaf: Arab Museum of Modern Art, Doha"
+    alt: "Title Unknown"
+    zoom: true
+
+  - id: "lornaselim2"
+    label: "Title Unknown"
+    src: figures/lornaselim2.jpg
+    caption: "Lorna Selim, Title Unknown, 1966-1983, oil on board, 41.5 x 95 cm."
+    credit: "Mathaf: Arab Museum of Modern Art, Doha"
+    alt: "Title Unknown"
+    zoom: true
+
+  - id: "shakir1"
+    label: "Title Unknown"
+    src: figures/shakir-hassan-al-said1.jpg
+    caption: "Shakir Hassan Al Said (1925-2004), “Title not known (Hassan Al Said 5)"
+    credit: "Modern Art Iraq Archive"
+    alt: "Title not known"
+    zoom: true
+
+  - id: "shakir2"
+    label: "Title Unknown"
+    src: figures/shakir-hassan-al-said2.jpg
+    caption: "Shakir Hassan Al Said (1925-2004), “Title not known (Hassan Al Said 17)"
+    credit: "Modern Art Iraq Archive"
+    alt: "Title not known"
+    zoom: true
+
+  - id: "shakir3"
+    label: "Title Unknown"
+    src: figures/shakir-hassan-al-said3.jpg
+    caption: "Shakir Hassan Al Said (1925-2004), “Title not known (Hassan Al Said 19)"
+    credit: "Modern Art Iraq Archive"
+    alt: "Title not known"
+    zoom: true
+
+  - id: "jewad1"
+    src: figures/jewadsalim1.png
+    label: "Title Unknown"
+    credit: "Mathaf: Arab Museum of Modern Art, Doha"
+    caption: "Jewad Selim, Title Unknown, no date, watercolour on paper, 34.1 × 25.2 cm. Mathaf: Arab Museum of Modern Art, Doha."
+    alt: "Watercolour composition with two stylised figures surrounded by geometric symbols and areas of red-orange, ochre, black, brown, and white."
+    zoom: true
+
+  - id: "jewad2"
+    src: figures/jewadsalim2.jpg
+    label: "Title Unknown"
+    credit: "Mathaf: Arab Museum of Modern Art, Doha"
+    caption: "Jewad Selim, Title Unknown, 1953, mixed media on paper, 32.4 × 28.9 cm. Mathaf: Arab Museum of Modern Art, Doha."
+    alt: "Abstract composition containing figures, symbols, linear marks, geometric patterns, and areas of blue, yellow, orange, red, green, and brown."
+    zoom: true
+
+  - id: "nada-shabout"
+    src: figures/nada_shabout.jpg
+    label: "Nada Shabout"
+    credit: "Mathaf: Arab Museum of Modern Art, Doha"
+    caption: "Dr. Nada Shabout is a regents professor of art history and the coordinator of the Contemporary Arab and Muslim Cultural Studies Initiative (CAMCSI) at the University of North Texas."
+    alt: "Nada Shabout"
+    zoom: false
 
   - id: "lange-house"
     src: figures/lange-house.jpg
@@ -53,14 +140,23 @@ figure_list:
     credit: The J. Paul Getty Museum, Los Angeles
     alt: "An abandoned-looking wooden shack darkly colored and standing straight against a light, empty expanse of sparsely vegetated dessert and cloudy sky."
 
-  - id: "vid-1"
-    poster: figures/evans-video-still.jpg
-    media_id: BpGN0UUtqqU
+  - id: "shakir-video"
+    poster: figures/shakir-thumbnail.png
+    media_id: 4jGixUG2IqA
     media_type: youtube
     label: "Video 1"
-    caption: "A selection of Walker Evans photos from the across the United States of America, 1930s."
-    credit: The J. Paul Getty Museum, Los Angeles
-    alt: "A narrow, unmarked paved road stretching away diagonally from the bottom right. On one side a row of houses and multi-pronged telegraph or electrical poles, on the other side a gas station sign and single car and figure."
+    caption: "Shakir Hassan Al-Said Talking about His Works - 1992"
+    credit: Ibrahimi Collection
+    alt: "Shakir Hassan Al-Said Talking about His Works - 199"
+
+  - id: "jewad-video"
+    media_id: dBuiGTD4mII
+    poster: figures/jewad-thumbnail.png
+    media_type: youtube
+    label: "Jewad Selim: Freedom Monument"
+    credit: 24.ae
+    caption: "A video discussing Jewad Selim's Freedom Monument in Baghdad."
+    alt: "Video discussing Jewad Selim's Freedom Monument."
 
   - id: "table-1"
     src: "tables/evans-works.html"
@@ -73,12 +169,10 @@ figure_list:
     caption: "*Modern Art Notes Podcast*, episode 429, “Dorothea Lange, Soul of a Nation,” hosted by Tyler Green, https://soundcloud.com/manpodcast/ep429."
 
   - id: "cat-1"
-    src: figures/lange-mother-a.jpg
-    caption: "Dorothea Lange, *Human Erosion in California / Migrant Mother*, 1936."
-    credit: The J. Paul Getty Museum, Los Angeles
+    src: figures/lorna_selim.jpg
+    caption: "Lorna Selim, Born 1928 in Sheffield, UK(Lorna Beryl Selim née Hales), Died 23 January 2021 in Upper Llanover, Abergavenny, Wales, UK."
     download: true
-    zoom: true
-    alt: "Close in shot of a mother with her hand to her cheek, two children pressed against either side but turned away, a baby just visible on her lap."
+    alt: "Lorna Selim"
 
   - id: "mother-variants"
     label: "Figure 1.1"
@@ -108,12 +202,10 @@ figure_list:
             selected: true
 
   - id: "cat-2"
-    src: figures/evans-fields-family-a.jpg
-    caption: "Walker Evans, *Bud Fields with His Wife Ivy, and His Daughter Ellen, Hale County, Alabama*, 1936."
-    credit: The J. Paul Getty Museum, Los Angeles
+    src: figures/Dia_Azzawi.jpg
+    caption: "Dia Azzawi; Dhiya; Dhia; Dhiaaldin Khamas; Born 24 April 1939 in Baghdad, Iraq"
     download: true
-    zoom: true
-    alt: "A woman seated in a bed nursing a child, a man on a chair beside them, in a room with plain wooden floor and walls, both barefoot and staring at the camera."
+    alt: "Dia Al-Azzawi"
 
   - id: "cat-2-b"
     src: figures/evans-fields-family-b.jpg
@@ -126,3 +218,15 @@ figure_list:
     caption: "Walker Evans, * [William Edward (Bud) Fields, A Cotton Sharecropper, Hale County, Alabama]/[Bud Woods, Tenant Farmer]*, 1936."
     credit: The J. Paul Getty Museum, Los Angeles
     alt: "Portrait of a bare-chested moustached man, with a patterned bandana draped over his shoulders, photographed from the chest up, staring straight into the camera."
+
+  - id: "cat-3"
+    src: figures/shakir-hassan-al-said.jpg
+    caption: "Shakir Hassan Al Said, born 1925 in Samawah, Iraq, died 2004 in Baghdad, Iraq."
+    download: true
+    alt: "Shakir Hassan Al Said"
+
+  - id: "cat-4"
+    src: figures/jewadsalim.jpg
+    caption: "Ahmed Jewad Selim al-Mosuli; Born 1919 in Baghdad, Iraq, Died 23 January 1961 in Baghdad, Iraq"
+    download: true
+    alt: "Jewad Selim"

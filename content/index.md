@@ -1,13 +1,25 @@
 ---
-title: Cover
+title: "Cover"
+title_ar: "الغلاف"
 layout: cover
-order: 1
+order: 0
 menu: false
 toc: false
-image: cover-background.jpg
+image: catalogue-images/villagescene.jpg
 outputs:
   - html
   - pdf
+  - epub
 ---
 
-In the 1930s, during America's worst financial crises, the administration of President Franklin D. Roosevelt employed photographers to document the plight of everyday folk in the Great Depression in order to push forward with their New Deal programs. Documentary photographers Dorothea Lange and Walker Evans were prolific frontrunners of these efforts and their extraordinary photographs continue to endure today. Their artistic and documentary mastery and historical importance provide key insight into a monumental turning point in American history.
+<div data-language="en" lang="en">
+
+<p>This work is made by a student, Marianne Igna.</p>
+
+</div>
+
+<div data-language="ar" lang="ar" dir="rtl">
+
+<p>أُنجز هذا العمل من قِبل الطالبة ماريان إغنا.</p>
+
+</div>

@@ -582,12 +582,15 @@ $image-divider-height: 16px;
 
   div.side-by-side {
     display: block;
+    direction: ltr;
 
     @media screen and (min-width: $desktop) {
       display: flex;
+      flex-direction: row;
     }
 
     div.quire-entry__image-wrap {
+      direction: ltr;
       position: sticky;
       width: 100%;
       overflow: hidden;
@@ -663,6 +666,10 @@ $image-divider-height: 16px;
     }
 
     div.quire-entry__content {
+      direction: ltr !important;
+      position: relative;
+      z-index: 20;
+
       @media screen {
         overflow: scroll;
         width: 100%;
@@ -747,6 +754,8 @@ $image-divider-height: 16px;
 .side-by-side .quire-entry__lightbox {
   height: calc(100% - #{$image-divider-height});
   @media screen and (min-width: $desktop) {
+    left: 0;
+  right: auto;
     position: fixed;
     /* top offsets 50px tall nav bar */
     top: 50px;
@@ -766,4 +775,10 @@ $image-divider-height: 16px;
     width: 100%;
     z-index: 1;
   }
+}
+
+// Arabic text inside entry pages
+.quire-entry [data-language="ar"] {
+  direction: rtl;
+  text-align: right;
 }

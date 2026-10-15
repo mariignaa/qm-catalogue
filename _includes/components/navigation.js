@@ -34,8 +34,28 @@ export default function (eleventyConfig) {
     const home = '/'
     const isHomePage = currentPage.url === home
 
-    const navBarLabel = ({ label, short_title, title }) => {
-      return pageTitle({ label, title: short_title || truncate(title, 34) })
+    const navBarLabel = ({
+      label,
+      short_title,
+      short_title_ar,
+      title,
+      title_ar
+    }) => {
+      const englishTitle =
+        short_title || truncate(title, 34)
+
+      const arabicTitle =
+        short_title_ar || title_ar || englishTitle
+
+      return html`
+        <span
+          class="nav-label"
+          data-en="${englishTitle}"
+          data-ar="${arabicTitle}"
+        >
+          ${englishTitle}
+        </span>
+      `
     }
 
     const navBarSearchButton = () => {
@@ -51,8 +71,45 @@ export default function (eleventyConfig) {
               <use xlink:href="#search-icon"></use>
             </switch>
           </svg>
-          <span class="visually-hidden">Search</span>
+          <span
+            class="visually-hidden"
+            data-en="Search"
+            data-ar="بحث"
+          >
+            Search
+          </span>
         </button>
+      `
+    }
+
+    const navBarLanguageSelector = () => {
+      return html`
+        <div
+          class="quire-language-selector"
+          role="group"
+          aria-label="Choose language"
+        >
+          <button
+            type="button"
+            class="language-button"
+            data-set-language="en"
+            aria-pressed="false"
+          >
+            EN
+          </button>
+
+          <span class="language-divider" aria-hidden="true">/</span>
+
+          <button
+            type="button"
+            class="language-button"
+            data-set-language="ar"
+            aria-pressed="false"
+            lang="ar"
+          >
+            عربي
+          </button>
+        </div>
       `
     }
 
@@ -78,7 +135,13 @@ export default function (eleventyConfig) {
     const navBarPreviousButton = () => {
       if (!previousPage) return ''
       const { data, url } = previousPage
-      const { label, short_title, title } = data
+      const {
+        label,
+        short_title,
+        short_title_ar,
+        title,
+        title_ar
+      } = data
       return html`
         <li class="quire-navbar-page-controls__item quire-previous-page">
           <a href="${url}" rel="previous">
@@ -88,7 +151,13 @@ export default function (eleventyConfig) {
                 <use xlink:href="#left-arrow-icon"></use>
               </switch>
             </svg>
-            ${navBarLabel({ label, short_title, title })}
+            ${navBarLabel({
+              label,
+              short_title,
+              short_title_ar,
+              title,
+              title_ar
+            })}
           </a>
         </li>
       `
@@ -131,23 +200,35 @@ export default function (eleventyConfig) {
       `
     }
 
-    return html`
+        return html`
       <div class="quire-navbar">
-        <a href="#main" class="quire-navbar-skip-link" tabindex="1">
+        <a
+          href="#main"
+          class="quire-navbar-skip-link"
+          tabindex="1"
+        >
           Skip to Main Content
         </a>
+
         <nav class="quire-navbar-controls">
           <div class="quire-navbar-controls__left">
             ${navBarSearchButton()}
+            ${navBarLanguageSelector()}
           </div>
+
           <div class="quire-navbar-controls__center">
-            <ul class="quire-navbar-page-controls" role="navigation" aria-label="quick">
+            <ul
+              class="quire-navbar-page-controls"
+              role="navigation"
+              aria-label="quick"
+            >
               ${navBarStartButton()}
               ${navBarPreviousButton()}
               ${navBarHomeButton()}
               ${navBarNextButton()}
             </ul>
           </div>
+
           <div class="quire-navbar-controls__right">
             <button
               class="quire-navbar-button menu-button"
@@ -157,18 +238,36 @@ export default function (eleventyConfig) {
               aria-controls="quire-menu"
               tabindex="2"
             >
+              <span
+                class="menu-label"
+                data-en="MENU"
+                data-ar="القائمة"
+              >
+                MENU
+              </span>
+
               <svg data-outputs-exclude="epub,pdf">
                 <switch>
                   <use xlink:href="#nav-icon"></use>
                 </switch>
               </svg>
-              <span class="visually-hidden">Table of Contents</span>
+
+              <span
+                class="visually-hidden"
+                data-en="Table of Contents"
+                data-ar="جدول المحتويات"
+              >
+                Table of Contents
+              </span>
             </button>
           </div>
         </nav>
+
         <div class="quire-progress-bar">
           <div style="width: ${percentProgress}%;">
-            <span>${currentPageIndex + 1}/${collections.navigation.length}</span>
+            <span>
+              ${currentPageIndex + 1}/${collections.navigation.length}
+            </span>
           </div>
         </div>
       </div>

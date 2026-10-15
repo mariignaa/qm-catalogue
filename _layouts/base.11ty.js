@@ -43,6 +43,7 @@ export default async function (data) {
         </div>
         ${await this.modal(figures)}
         ${this.scripts()}
+        <script src="/_assets/javascript/language-switcher.js"></script>
       </body>
     </html>
   `

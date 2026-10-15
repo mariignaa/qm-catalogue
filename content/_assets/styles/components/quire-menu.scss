@@ -24,6 +24,7 @@
   font-family: $quire-primary-font;
   line-height: 1.25;
 
+
   &__header {
     margin: .25em 0 1em;
 
@@ -109,7 +110,8 @@
       margin: 0 -.75rem;
       border-radius: 0;
       &:hover {
-        background-color: $quire-menu-color;
+        color: darken($color-blue, 20%) !important;
+        background-color: transparent;
         text-decoration: underline;
         border-left-width: 0;
       }
@@ -241,3 +243,111 @@
   }
 }
 
+.quire-menu {
+
+  .menu-list {
+    line-height: 1.4;
+
+    a {
+      font-size: 1rem;
+      padding-top: .65rem;
+      padding-bottom: .65rem;
+    }
+  }
+}
+
+.quire-menu {
+
+  // Main menu items
+  .menu-list > ol > li > a,
+  .menu-list > ol > li > .list-header {
+    font-size: 1.25rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: .04em;
+  }
+
+  // Nested pages
+  .menu-list ol ol a {
+    font-size: 1rem;
+    font-weight: 400;
+    text-transform: none;
+    letter-spacing: 0;
+  }
+}
+
+#site-menu__inner {
+  width: 100%;
+  height: calc(100vh - #{$navbar-height});
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.mathaf-menu-layout {
+  display: grid;
+  grid-template-columns: 40% 60%;
+
+  width: 100%;
+  height: calc(100vh - #{$navbar-height});
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.mathaf-menu-image {
+  width: 100%;
+  height: calc(100vh - #{$navbar-height});
+  overflow: hidden;
+  background-color: $quire-menu-color;
+
+  img {
+    display: block;
+    width: 100%;
+    height: 100%;
+
+    object-fit: contain;
+    object-position: center;
+  }
+}
+
+.mathaf-menu-navigation {
+  width: 100%;
+  height: calc(100vh - #{$navbar-height});
+  max-height: calc(100vh - #{$navbar-height});
+
+  padding: 3rem 4rem;
+  box-sizing: border-box;
+
+  overflow-x: hidden;
+  overflow-y: scroll;
+
+  background-color: $quire-menu-color;
+
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior: contain;
+}
+
+// Mathaf-inspired menu typography
+.quire-menu {
+
+  // Publication title
+  &__header__title,
+  &__header__title-link {
+    font-family: "IBM Plex Sans Condensed", sans-serif;
+    font-weight: 700;
+  }
+
+  // Main navigation headings
+  .menu-list > ol > li > a,
+  .menu-list > ol > li > .list-header {
+    font-family: "IBM Plex Sans Condensed", sans-serif;
+    font-weight: 700;
+  }
+
+  // Subpages
+  .menu-list ol ol a {
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 400;
+  }
+}

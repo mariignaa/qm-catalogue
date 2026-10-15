@@ -29,13 +29,26 @@ export default function (eleventyConfig) {
     const footerLinks = resourceLinks.filter(({ type }) => type === 'footer-link')
 
     return html`
-      <div
-        class="quire-menu menu"
-        role="banner"
-        id="site-menu__inner"
-      >
-        ${menuHeader({ currentURL: pageData.url })}
-        <nav id="nav" class="quire-menu__list menu-list" role="navigation" aria-label="full">
+    <div
+      class="quire-menu menu"
+      role="banner"
+      id="site-menu__inner"
+    >
+
+      <div class="mathaf-menu-layout">
+
+        <div class="mathaf-menu-image">
+          <img
+            src="/_assets/images/Mathaf_Arab_Museum_of_Modern_Art.jpg"
+            alt=""
+          >
+        </div>
+
+        <div class="mathaf-menu-navigation">
+
+          ${menuHeader({ currentURL: pageData.url })}
+
+          <nav id="nav" class="quire-menu__list menu-list" role="navigation" aria-label="full">
           <h3 class="visually-hidden">Table of Contents</h3>
           ${menuList({ currentURL: pageData.url, navigation: eleventyNavigation(collections.menu) })}
         </nav>
@@ -67,7 +80,12 @@ export default function (eleventyConfig) {
           ${copyright()}
           ${linkList({ links: footerLinks, classes: ['menu-list'] })}
         </footer>
-      </div>
-    `
+
+              </div>
+
+            </div>
+
+          </div>
+        `
   }
 }

@@ -1,0 +1,52 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "http://localhost:8080/iiif/lornaselim2/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Title Unknown"
+    ]
+  },
+  "items": [
+    {
+      "id": "http://localhost:8080/iiif/lornaselim2/canvas",
+      "type": "Canvas",
+      "height": 1716,
+      "width": 3050,
+      "items": [
+        {
+          "id": "http://localhost:8080/iiif/lornaselim2/canvas/annotation-page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:8080/iiif/lornaselim2/canvas/lornaselim2",
+              "motivation": "painting",
+              "target": "http://localhost:8080/iiif/lornaselim2/canvas",
+              "type": "Annotation",
+              "body": {
+                "id": "http://localhost:8080/iiif/lornaselim2/lornaselim2/print-image.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1716,
+                "width": 3050,
+                "label": {
+                  "en": [
+                    "Title Unknown"
+                  ]
+                },
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "@id": "http://localhost:8080/iiif/lornaselim2/lornaselim2/tiles/info.json",
+                    "profile": "level0",
+                    "protocol": "http://iiif.io/api/image"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
