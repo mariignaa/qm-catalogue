@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "http://localhost:8080/iiif/untitled/manifest.json",
+  "id": "https://mariignaa.github.io/qm-catalogue/iiif/untitled/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -9,22 +9,22 @@
   },
   "items": [
     {
-      "id": "http://localhost:8080/iiif/untitled/canvas",
+      "id": "https://mariignaa.github.io/qm-catalogue/iiif/untitled/canvas",
       "type": "Canvas",
       "height": 1794,
       "width": 1554,
       "items": [
         {
-          "id": "http://localhost:8080/iiif/untitled/canvas/annotation-page",
+          "id": "https://mariignaa.github.io/qm-catalogue/iiif/untitled/canvas/annotation-page",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://localhost:8080/iiif/untitled/canvas/untitled",
+              "id": "https://mariignaa.github.io/qm-catalogue/iiif/untitled/canvas/untitled",
               "motivation": "painting",
-              "target": "http://localhost:8080/iiif/untitled/canvas",
+              "target": "https://mariignaa.github.io/qm-catalogue/iiif/untitled/canvas",
               "type": "Annotation",
               "body": {
-                "id": "http://localhost:8080/iiif/untitled/untitled/print-image.jpg",
+                "id": "https://mariignaa.github.io/qm-catalogue/iiif/untitled/untitled/print-image.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 1794,
@@ -37,7 +37,7 @@
                 "service": [
                   {
                     "@context": "http://iiif.io/api/image/2/context.json",
-                    "@id": "http://localhost:8080/iiif/untitled/untitled/tiles/info.json",
+                    "@id": "https://mariignaa.github.io/qm-catalogue/iiif/untitled/untitled/tiles/info.json",
                     "profile": "level0",
                     "protocol": "http://iiif.io/api/image"
                   }

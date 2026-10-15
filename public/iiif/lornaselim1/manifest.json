@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "http://localhost:8080/iiif/lornaselim1/manifest.json",
+  "id": "https://mariignaa.github.io/qm-catalogue/iiif/lornaselim1/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -9,22 +9,22 @@
   },
   "items": [
     {
-      "id": "http://localhost:8080/iiif/lornaselim1/canvas",
+      "id": "https://mariignaa.github.io/qm-catalogue/iiif/lornaselim1/canvas",
       "type": "Canvas",
       "height": 1958,
       "width": 2488,
       "items": [
         {
-          "id": "http://localhost:8080/iiif/lornaselim1/canvas/annotation-page",
+          "id": "https://mariignaa.github.io/qm-catalogue/iiif/lornaselim1/canvas/annotation-page",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://localhost:8080/iiif/lornaselim1/canvas/lorna_selim1",
+              "id": "https://mariignaa.github.io/qm-catalogue/iiif/lornaselim1/canvas/lorna_selim1",
               "motivation": "painting",
-              "target": "http://localhost:8080/iiif/lornaselim1/canvas",
+              "target": "https://mariignaa.github.io/qm-catalogue/iiif/lornaselim1/canvas",
               "type": "Annotation",
               "body": {
-                "id": "http://localhost:8080/iiif/lornaselim1/lorna_selim1/print-image.jpg",
+                "id": "https://mariignaa.github.io/qm-catalogue/iiif/lornaselim1/lorna_selim1/print-image.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 1958,
@@ -37,7 +37,7 @@
                 "service": [
                   {
                     "@context": "http://iiif.io/api/image/2/context.json",
-                    "@id": "http://localhost:8080/iiif/lornaselim1/lorna_selim1/tiles/info.json",
+                    "@id": "https://mariignaa.github.io/qm-catalogue/iiif/lornaselim1/lorna_selim1/tiles/info.json",
                     "profile": "level0",
                     "protocol": "http://iiif.io/api/image"
                   }

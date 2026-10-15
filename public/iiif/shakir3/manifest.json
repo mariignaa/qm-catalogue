@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "http://localhost:8080/iiif/shakir3/manifest.json",
+  "id": "https://mariignaa.github.io/qm-catalogue/iiif/shakir3/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -9,22 +9,22 @@
   },
   "items": [
     {
-      "id": "http://localhost:8080/iiif/shakir3/canvas",
+      "id": "https://mariignaa.github.io/qm-catalogue/iiif/shakir3/canvas",
       "type": "Canvas",
       "height": 1333,
       "width": 1452,
       "items": [
         {
-          "id": "http://localhost:8080/iiif/shakir3/canvas/annotation-page",
+          "id": "https://mariignaa.github.io/qm-catalogue/iiif/shakir3/canvas/annotation-page",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://localhost:8080/iiif/shakir3/canvas/shakir-hassan-al-said3",
+              "id": "https://mariignaa.github.io/qm-catalogue/iiif/shakir3/canvas/shakir-hassan-al-said3",
               "motivation": "painting",
-              "target": "http://localhost:8080/iiif/shakir3/canvas",
+              "target": "https://mariignaa.github.io/qm-catalogue/iiif/shakir3/canvas",
               "type": "Annotation",
               "body": {
-                "id": "http://localhost:8080/iiif/shakir3/shakir-hassan-al-said3/print-image.jpg",
+                "id": "https://mariignaa.github.io/qm-catalogue/iiif/shakir3/shakir-hassan-al-said3/print-image.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 1333,
@@ -37,7 +37,7 @@
                 "service": [
                   {
                     "@context": "http://iiif.io/api/image/2/context.json",
-                    "@id": "http://localhost:8080/iiif/shakir3/shakir-hassan-al-said3/tiles/info.json",
+                    "@id": "https://mariignaa.github.io/qm-catalogue/iiif/shakir3/shakir-hassan-al-said3/tiles/info.json",
                     "profile": "level0",
                     "protocol": "http://iiif.io/api/image"
                   }

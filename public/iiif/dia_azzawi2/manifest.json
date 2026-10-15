@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "http://localhost:8080/iiif/dia_azzawi2/manifest.json",
+  "id": "https://mariignaa.github.io/qm-catalogue/iiif/dia_azzawi2/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -9,22 +9,22 @@
   },
   "items": [
     {
-      "id": "http://localhost:8080/iiif/dia_azzawi2/canvas",
+      "id": "https://mariignaa.github.io/qm-catalogue/iiif/dia_azzawi2/canvas",
       "type": "Canvas",
       "height": 3000,
       "width": 2588,
       "items": [
         {
-          "id": "http://localhost:8080/iiif/dia_azzawi2/canvas/annotation-page",
+          "id": "https://mariignaa.github.io/qm-catalogue/iiif/dia_azzawi2/canvas/annotation-page",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://localhost:8080/iiif/dia_azzawi2/canvas/Dia_Azzawi2",
+              "id": "https://mariignaa.github.io/qm-catalogue/iiif/dia_azzawi2/canvas/Dia_Azzawi2",
               "motivation": "painting",
-              "target": "http://localhost:8080/iiif/dia_azzawi2/canvas",
+              "target": "https://mariignaa.github.io/qm-catalogue/iiif/dia_azzawi2/canvas",
               "type": "Annotation",
               "body": {
-                "id": "http://localhost:8080/iiif/dia_azzawi2/Dia_Azzawi2/print-image.jpg",
+                "id": "https://mariignaa.github.io/qm-catalogue/iiif/dia_azzawi2/Dia_Azzawi2/print-image.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3000,
@@ -37,7 +37,7 @@
                 "service": [
                   {
                     "@context": "http://iiif.io/api/image/2/context.json",
-                    "@id": "http://localhost:8080/iiif/dia_azzawi2/Dia_Azzawi2/tiles/info.json",
+                    "@id": "https://mariignaa.github.io/qm-catalogue/iiif/dia_azzawi2/Dia_Azzawi2/tiles/info.json",
                     "profile": "level0",
                     "protocol": "http://iiif.io/api/image"
                   }
