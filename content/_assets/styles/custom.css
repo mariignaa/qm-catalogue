@@ -1,8 +1,8 @@
 /* Language visibility */
-html[data-current-language="en"] [data-language="ar"] {
+html[data-language="en"] body [data-language="ar"] {
   display: none !important;
 }
 
-html[data-current-language="ar"] [data-language="en"] {
+html[data-language="ar"] body [data-language="en"] {
   display: none !important;
 }
