@@ -69,6 +69,10 @@ export default function (eleventyConfig, { directoryConfig, publication }) {
                 {
                   src: path.posix.join(inputDir, '_assets', 'fonts', '*'),
                   dest: path.posix.join(outputDir, '_assets', 'fonts')
+                },
+                {
+                  src: path.posix.join(inputDir, '_assets', 'javascript', '*'),
+                  dest: path.posix.join(outputDir, '_assets', 'javascript')
                 }
               ]
             })
